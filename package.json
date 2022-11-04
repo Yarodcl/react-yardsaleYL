@@ -1,0 +1,46 @@
+{
+  "name": "react-yardsaleyl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development",
+    "server": "npx servor build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yarodcl/react-yardsaleYL.git"
+  },
+  "keywords": [
+    "React",
+    "JavaScript"
+  ],
+  "author": "Yarod Aliaga <yarod.aliaga@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yarodcl/react-yardsaleYL/issues"
+  },
+  "homepage": "https://github.com/Yarodcl/react-yardsaleYL#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "sass": "^1.56.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
